@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itinerary Display</title>
+    <link rel="stylesheet" href="itinerary.css">
+</head>
+
+<body>
+   <div class="container">
+    Travel Itinerary Planner by Quantum Coders
+   </div>
+    <div id="display-info">
+        <div class="container" id="user-info">
+            <div class="title">User Info</div>
+            <div class="info-tab">
+                <p class="label" id="name">Name</p>
+                <p class="data" id="name-info">Aditya Kumar Junwal</p>
+            </div>
+            <div class="info-tab">
+                <p class="label" id="destination">Destination</p>
+                <p class="data" id="destination-info">Darjeeling</p>
+            </div>
+            <div class="info-tab">
+                <p class="label" id="budget">Budget</p>
+                <p class="data" id="budget-info">Rs 5,00,000</p>
+            </div>
+            <div class="info-tab">
+                <p class="label" id="dates">Dates</p>
+                <p class="data" id="dates-info">20/10/2024 to 30/10/2024</p>
+            </div>
+        </div>
+        
+        <div class="container" id="trip-info">
+            <div class="title">Trip Info
+                <select name="day-selector" id="day-selector">
+                    <option value="day1">Day1</option>
+                    <option value="day2">Day2</option>
+                    <option value="day3">Day3</option>
+                    <option value="day4">Day4</option>
+                    <option value="day5">Day5</option>
+                    <option value="day6">Day6</option>
+                    <option value="day7">Day7</option>
+                    <option value="day8">Day8</option>
+                    <option value="day9">Day9</option>
+                    <option value="day10">Day10</option>
+                </select>
+            </div>
+            
+           
+            <table>
+                <thead>
+                    <th>Title</th>
+                    <th>Description</th>
+                </thead>
+                <tr>
+                    <td>Arival</td>
+                    <td>Fly into Bagdogra Airport and drive to Darjeeling</td>
+                </tr>
+                <tr>
+                    <td>Accommodation</td>
+                    <td>Check-in at a mid-range hotel like Hotel Elgin or a cozy guesthouse</td>
+                </tr>
+                <tr>
+                    <td>Evening</td>
+                    <td>Explore the local market and have dinner at a local restaurant</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="container" id="budget-info">
+        <div class="title">Budget Info</div>
+        <table>
+            <thead>
+                <th>
+                    Accommodation
+                </th>
+                <th>
+                    Meals
+                </th>
+                <th>
+                    Local Transportation
+                </th>
+                <th>
+                    Activities
+                </th>
+                <th>
+                    Miscellaneous
+                </th>
+            </thead>
+            <tr>
+                <td>
+                    Rs. 40,000 (10 nights at Rs. 4,000/night)
+                </td>
+                <td>
+                    Rs. 15,000 (Rs. 1,500/day)
+                </td>
+                <td>
+                    Rs. 15,000 (Including airport transfers and local travel)
+                </td>
+                <td>
+                    Rs. 10,000 (Entry fees, tours, etc.)
+                </td>
+                <td>
+                    Rs. 10,000 (Shopping, additional expenses)
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="itinerary.js"></script>
+</body>
+
+</html>

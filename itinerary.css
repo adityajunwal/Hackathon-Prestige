@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'poppins';
+    color: white;
+    justify-content: center;
+    background-image: url('img2.jpg');
+    /* URL to the background image */
+    background-size: cover;
+    /* Scale the image to cover the entire body */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Prevent the image from repeating */
+}
+
+#display-info {
+    display: flex;
+}
+
+.container {
+    width: 90%;
+    background-color: #3B6064;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th {
+    font-size: small;
+}
+
+td {
+    border-radius: 15px;
+    padding: 6px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-spacing: 10px;
+}
+
+#day-selector {
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    padding: 4px;
+    border-radius: 8px;
+    width: fit-content;
+    margin-left: 20px;
+    border: none;
+}
+
+#day-selector:focus {
+    outline: none;
+}
+
+.label {
+    font-size: 8px;
+    margin: 0px;
+    margin-top: 15px;
+}
+
+.data {
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    border-radius: 8px;
+    margin: 0px;
+}
+
+#user-info {
+    width: 30%;
+    max-height: 70vh;
+}
+
+option {
+    color: black;
+}
+
+#trip-info {
+    width: 60%;
+    margin-left: 0px;
+}
+
+.title {
+    margin: 0px;
+}

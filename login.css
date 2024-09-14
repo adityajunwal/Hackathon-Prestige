@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('img2.jpg');
+    /* URL to the background image */
+    background-size: cover;
+    /* Scale the image to cover the entire body */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Prevent the image from repeating */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    width: 500px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    color: white;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 0px solid #ddd;
+    background: rgba(255, 255, 255, 0); /* Semi-transparent background */
+    border-bottom: 2px solid white;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #349de3;
+}
+
+p {
+    margin-top: 10px;
+}
+
+a {
+    color: #6bc1fa;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

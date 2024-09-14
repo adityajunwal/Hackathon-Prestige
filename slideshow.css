@@ -1,0 +1,30 @@
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    height: 400px; 
+    margin: auto;
+    overflow: hidden;
+    border-radius: 3px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+/* Fade transition */
+.fade {
+    animation: fade 1.5s ease-in-out;
+}
+
+@keyframes fade {
+    from { opacity: .4 }
+    to { opacity: 1 }
+}

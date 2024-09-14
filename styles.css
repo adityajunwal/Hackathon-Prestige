@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('img2.jpg');
+    /* URL to the background image */
+    background-size: cover;
+    /* Scale the image to cover the entire body */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Prevent the image from repeating */    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    padding: 40px;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 0px solid #ccc;
+    border-bottom: 2px solid white;
+    font-size: 16px;
+    outline: none;
+    background: rgba(255, 255, 255, 0);
+}
+
+form input:focus, form select:focus {
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #8dbff5;
+}
+
+input[type="range"] {
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 5px;
+    background: #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: background 0.3s ease;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+input[type="range"]:hover::-webkit-slider-thumb {
+    background: #0056b3;
+}
+
+#budgetValue {
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+}
+
+.dates {
+    display: flex;
+    gap: 6px;
+}

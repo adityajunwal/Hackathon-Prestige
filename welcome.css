@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'poppins';
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+header {
+    background: url('main.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    /* text-shadow: 0px 0px 10px rgba(0, 0, 0, 1); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.hero-container h1 {
+    margin-top: 300px;
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero-container p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+/* CTA Container */
+.cta-container {
+    position: relative;
+    display: inline-block;
+}
+
+.cta-button {
+    /* background: url('red.jpg') no-repeat center center/cover; Attractive background for the button */
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin-top: 200px;
+    display: inline-block;
+    border: none;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.cta-button:hover {
+    /* background: url('') no-repeat center center/cover; Hover effect */
+    background-color: rgba(255, 0, 0, 0);
+    border: 2px solid white;
+    background-size: cover;
+    color: white;
+}
+
+/* Features Section */
+#features {
+    background: #f4f4f4;
+    padding: 50px 0;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+    
+}
+
+.feature {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.feature:hover{
+   scale: 1.03;
+
+}
+
+.feature img {
+    width: 100%;
+    /* height: auto; */
+    height: 250px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+
+.feature h2 {
+    font-size: 1.8em;
+    margin: 20px 0;
+}
+
+.feature p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Testimonial Section */
+#testimonial {
+    padding: 50px 0;
+    background: #fff;
+}
+
+.testimonial-container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.testimonial {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonial cite {
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+    color: #777;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container p {
+    margin: 0;
+}
